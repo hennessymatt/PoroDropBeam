@@ -5,7 +5,7 @@ import numpy as np
 import json
 from pathlib import Path
 
-meshname = 'parabolic_0p01_0p1_fine'
+meshname = 'coarse'
 fname = 'dynamic/' + meshname + '/Pe_huge/E_one/'
 # fname = 'dynamic/' + meshname + '/nice_pic/'
 

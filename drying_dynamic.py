@@ -31,6 +31,7 @@ b_d = 1 / 2 / (1 + nu_d)
 a_b = E_b * nu_b / (1 + nu_b) / (1 - 2 * nu_b)
 b_b = E_b * 1 / 2 / (1 + nu_b)
 
+# initial and final porosity
 phi_f_0 = 1 - 0.32
 phi_f_inf = 1 - 0.64
 

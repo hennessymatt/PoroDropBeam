@@ -1,0 +1,7 @@
+#!/bin/bash
+
+base_name="parabolic"
+fname="parabolic_0p01_0p1_fine"
+
+gmsh $base_name.geo -format msh2 -2 -o $fname.msh
+dolfin-convert $fname.msh $fname.xml
